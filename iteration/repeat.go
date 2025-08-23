@@ -1,11 +1,13 @@
 package iteration
 
-func Repeat(character string) string {
-	var repeated string
+import "strings"
 
-	for i := 0; i < 5; i++ {
-		repeated += character
+func Repeat(character string, numberOfRepeats int) string {
+	var repeated strings.Builder
+
+	for range numberOfRepeats {
+		repeated.WriteString(character)
 	}
 
-	return repeated
+	return repeated.String()
 }
