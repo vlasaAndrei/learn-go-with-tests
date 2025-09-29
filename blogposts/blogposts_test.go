@@ -7,7 +7,7 @@ import (
 	"testing"
 	"testing/fstest"
 
-	blogposts "github.com/vlasaAndrei/go-tdd/reading-files"
+	blogposts "github.com/vlasaAndrei/learn-go-with-tests/reading-files"
 )
 
 func TestNewBlogPosts(t *testing.T) {
