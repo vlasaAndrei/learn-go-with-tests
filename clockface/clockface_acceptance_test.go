@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"example.com/hello/clockface"
+	"github.com/vlasaAndrei/learn-go-with-tests/clockface"
 )
 
 type SVG struct {
